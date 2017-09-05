@@ -1,3 +1,4 @@
+#test code from the web
 from simpleai.search import SearchProblem, astar
 
 GOAL = 'HELLO WORLD'
