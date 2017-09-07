@@ -24,9 +24,8 @@ class HelloProblem(SearchProblem):
         missing = len(GOAL) - len(state)
         return wrong + missing
     
-    
 
-problem = HelloProblem(initial_state='HALL')
+problem = HelloProblem(initial_state='HELL')
 result = astar(problem)
 #result = breadth_first(problem)
 #result = depth_first(problem)
