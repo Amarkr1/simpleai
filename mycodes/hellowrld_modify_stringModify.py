@@ -45,7 +45,7 @@ problem = HelloProblem(initial_state = modified_state)
 result = astar(problem)
 #result = breadth_first(problem)
 #result = depth_first(problem)
-print("Initial state: ",initial_state)
-print("Modified state: ",modified_state)
-print("Goal: ",result.state)
+print "Initial state: ",initial_state
+print "Modified state: ",modified_state
+print "Goal: ",result.state
 print(result.path())
